@@ -1,0 +1,10 @@
+numpy==1.24.3
+pandas==1.5.3
+matplotlib
+PyQt5
+tushare==1.4.6
+backtrader
+pyfolio
+statsmodels
+notebook
+zipline-reloaded

@@ -1,0 +1,20 @@
+name: hkcodex
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - --index-url=https://pypi.tuna.tsinghua.edu.cn/simple  # 指定 PyPI 镜像源
+    - numpy==1.24.3
+    - pandas==1.5.3
+    - tushare==1.4.6
+    - backtrader
+    - PyQt5
+    - pyfolio
+    - matplotlib
+    - statsmodels
+    - python-dateutil
+    - seaborn
+    - notebook
+    - zipline-reloaded
